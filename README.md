@@ -91,9 +91,9 @@ yarn build
   const API_URL = 'https://api.example.com';
   ```
 - 每個 Vue 組件內部的部分應按照 **順序** 擺放：
-  1. `script` (setup 相關邏輯)
-  2. `template`
-  3. `style`
+    1. `script` (setup 相關邏輯)
+    2. `template`
+    3. `style`
 - 儘量避免在 `setup` 內直接操作 DOM，應使用 `ref` 或 `computed`。
 - CSS 樣式統一使用 **SCSS**，並啟用 **Scoped CSS**。
 - 使用 `async/await` 進行異步操作，避免過度使用 Promise chaining。
