@@ -41,14 +41,14 @@ yarn build
 ├── src/               # 主要程式碼目錄
 │   ├── assets/        # 靜態資源 (圖片、CSS 等)
 │   ├── components/    # 可重複使用的 Vue 元件
-│   ├── pages/         # 頁面級組件
+│   ├── views/         # 頁面級組件
 │   ├── router/        # Vue Router 配置
 │   ├── store/         # 狀態管理 (如果使用 Vuex 或 Pinia)
 │   ├── services/      # API 請求相關封裝
 │   ├── utils/         # 公用工具函式
 │   ├── App.vue        # 主要 Vue 入口組件
 │   ├── main.js        # 入口文件
-├── public/            # 靜態文件 (favicon, index.html 等)
+├── public/            # 靜態文件 (如favicon 等)
 ├── .eslintrc.js       # ESLint 設定檔
 ├── .prettierrc        # Prettier 設定檔
 ├── package.json       # 專案依賴與腳本
@@ -56,7 +56,7 @@ yarn build
 ```
 
 - **`components/`**：存放可重用的 Vue 元件。
-- **`pages/`**：存放頁面級的組件，每個頁面為單獨的 `.vue` 文件。
+- **`views/`**：存放頁面級的組件，每個頁面為單獨的 `.vue` 文件。
 - **`router/`**：用於管理 Vue Router 配置。
 - **`store/`**：如果使用 Vuex 或 Pinia 來管理應用狀態，則在此目錄中存放。
 - **`services/`**：封裝 API 請求，讓元件不直接調用 API。
